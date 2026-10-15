@@ -55,3 +55,11 @@ The project uses an Arduino-compatible board to blink an LED connected to digita
 
 ## Verification Note
 These findings are based on code review. They are not all confirmed defects. Hardware compatibility, timing accuracy, and startup behavior require testing on the intended board. No tests are marked as passed until they have actually been performed.
+## Compilation Verification
+
+- **Test ID:** TC-01
+- **Test Description:** Compile the refactored Arduino LED-blinking program.
+- **Expected Result:** The code compiles without errors.
+- **Actual Result:** Compilation completed successfully in Arduino IDE.
+- **Status:** PASS
+- **Note:** This confirms successful compilation only. Physical LED behavior and timing have not yet been tested.
